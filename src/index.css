@@ -1,6 +1,50 @@
-public/
-  favicon.ico
-  apple-touch-icon.png   (180x180)
-  icon-192.png           (192x192)
-  icon-512.png           (512x512)
-  manifest.json
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ESTILO GLOBAL */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f4f6f8;
+  color: #1f2937;
+  min-height: 100vh;
+}
+
+/* CONTAINER PRINCIPAL */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+/* CARD EXEMPLO */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+/* BOTÃO PADRÃO */
+button {
+  background-color: #0f172a;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #1e293b;
+}
